@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    /* --primary-color : #db2777; */
+    --primary-color : #f97316;
+    --width : 600px;
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+    margin: 0rem;
+}
+
+.navbar {
+    font-size: xx-large;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 350px;
+}
+
+#text-input {
+    min-width: 100%;
+    max-height: 25vh;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+}
+
+button {
+    /* display: block; */
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+    background-color: var(--primary-color);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.text {
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+#output {
+    min-width: 100%;
+    border: 1px solid black;
+    height: 10.6vh;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    font-size: large;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    max-width: var(--width);
+}
