@@ -29,6 +29,7 @@ body {
     max-height: 25vh;
     font-family: 'Satisfy', cursive;
     font-size: large;
+    padding: 1rem;
 }
 
 button {

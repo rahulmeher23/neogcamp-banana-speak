@@ -3,9 +3,9 @@ var txtInput = document.querySelector(`#text-input`);
 var txtOutput = document.querySelector(`#output`);
 
 var serverURL = `https://api.funtranslations.com/translate/minion.json`;
-
+var  currentURL;
 function translationURL(text) {
-    return serverURL = serverURL + `?` + `text=` + text; 
+    return currentURL = serverURL + `?` + `text=` + text; 
 }
 
 function errorHandler(error) {
